@@ -1,0 +1,113 @@
+* {
+	box-sizing: border-box;
+}
+
+.centrado {
+	width: 80%;
+	margin: 0px auto;
+}
+
+#cabecera h1 {
+	color: white;
+	background-color: black;
+	text-align: center;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding: 20px;
+}
+
+#cabecera p {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	text-align: right;
+
+}
+
+#menu li {
+	display: inline;
+	padding: 15px;
+}
+
+#menu ul {
+	
+	color: white;
+	background-color: black;
+	padding: 15px;
+	margin-top: 10px;
+	margin-bottom:0px;
+
+}
+
+#menu li:hover {
+	background-color: white;
+	color: black;
+}
+
+img {
+	width: 200px;
+
+}
+
+#menulateral, #formulario {
+	float: left;
+	width: 25%;
+}
+
+#imagen {
+	float: left;
+	width: 50%;
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+	
+}
+
+#menulateral h4 {
+	text-align: center;
+	background-color: black;
+	color: white;
+	margin-bottom: 0px;
+}
+
+#menulateral ul {
+	padding-left: 0px;
+	list-style: none;
+	background-color: grey;
+	height: 300px;
+	margin-top: 5px;
+}
+
+#menulateral li {
+	padding:7px;
+}
+
+.blanco {
+	background-color: white;
+}
+
+#marco {
+	width: 210px;
+	margin:20px auto;
+	background-color: grey;
+	text-align: center;
+	padding-top: 5px;
+	height: 210px;
+}
+
+#formulario {
+	width: 15%;
+
+
+}
+
+#formulario h4 {
+	color: white;
+	background-color: black;
+	text-align: center;
+}
+
+#pie {
+	clear: both;
+	background-color: black;
+	color: white;
+	text-align: center;
+}

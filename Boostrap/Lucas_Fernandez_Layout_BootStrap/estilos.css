@@ -1,0 +1,184 @@
+.container {
+	background-color: #F3E7E7;
+	border-radius: 8px 8px 8px 8px;	
+
+}
+
+@font-face {
+	font-family: arial; 
+	src: url(./amanoregulold/AManoRegulold.ttf);
+}
+
+.bizz{
+	font-family: arial;
+	font-style: italic;
+}
+
+.bizz span {
+	color:#23AEDBFF;
+
+}
+
+.nav-link {
+	font-weight: bold;	
+	font-family: arial;	
+}
+
+#menu {
+	background-color: #E3E0E5F0;
+	margin: 20px;
+	border-radius: 8px 8px 8px 8px;
+	color: white;
+}
+
+#welcome {
+	background-color: #F79107FF;
+	border-radius: 8px 8px 8px 8px;
+	margin:7px;
+}
+
+#welcome p {
+	transform: rotate( -90deg );
+	margin-top: 150px;
+	font-family: arial;
+	font-size: 30px;
+
+
+}
+
+#welcome b {
+	font-size: 50px;
+	font-family: arial;
+}
+
+
+img {
+	border-radius: 8px 8px 8px 8px;
+	margin-top: 15px;	
+}
+
+#investments {
+	background-color: #FDB61EFF;
+	border-radius: 8px 8px 8px 8px;
+	margin:7px;
+
+}
+
+#investments p {
+	transform: rotate(-90deg);
+	transform-style: initial;
+	margin-top: 150px;
+	font-family: arial;
+	font-size: 30px;
+
+}
+
+#investments b {
+	font-size: 50px;
+	font-family: arial;
+}
+
+#corporate {
+	background-color: #EEF30BFF;
+	border-radius: 8px 8px 8px 8px;
+	margin:10px;
+
+}
+
+#corporate p {
+	transform: rotate(-90deg);
+	margin-top: 150px;
+	font-family: arial;
+
+}
+
+#corporate b {
+	font-size: 50px;
+	font-family: arial;
+}
+
+#markets {
+	background-color: #98EF0FFF;
+	border-radius: 8px 8px 8px 8px;
+	margin:10px;
+
+}
+
+#markets p {
+	transform: rotate(-90deg);
+	margin-top: 150px;
+	font-family: arial;
+}
+
+#markets b {
+	font-size: 50px;
+	font-family: arial;
+}
+
+#financing {
+	background-color: #5FCE30FF;
+	border-radius: 8px 8px 8px 8px;
+	margin:10px;
+
+}
+
+#financing p {
+	transform: rotate(-90deg);
+	margin-top: 150px;
+	font-family: arial;
+}
+
+#financing b {
+	font-size: 50px;
+	color: white;
+	font-family: arial;
+}
+
+#solution1 {
+	background-color: #E3E0E5F0;
+	border-radius: 8px 8px 8px 8px;
+}
+
+#investments1 {
+	background-color: #E3E0E5F0;
+	border-radius: 8px 8px 8px 8px;
+	
+}
+
+#financing1 {
+	background-color: #E3E0E5F0;
+	border-radius: 8px 8px 8px 8px;
+
+
+}
+
+#marketing1 {
+	background-color: #E3E0E5F0;
+	border-radius: 8px 8px 8px 8px;
+	
+
+}
+
+#solution1 p {
+	border-top: 1px solid black;
+}
+
+
+#investments1 p {
+	border-top: 1px solid black;
+}
+
+#financing1 p {
+	border-top: 1px solid black;
+}
+
+#marketing1 p {
+	border-top: 1px solid black;
+
+}
+
+p {
+	font-size:0.80em;
+	margin:8px;
+	text-align: left;
+}

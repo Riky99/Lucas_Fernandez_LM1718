@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE horario>
+
+	<horario>		
+
+		<asignatura nombre="lenguaje de marcas">
+			<profesor>Juan Diego</profesor>
+			<aula>4</aula>
+			<horas>
+				<dia dia="Lunes, de 8:15 a 10:15"></dia>
+				<dia dia="miercoles, de 11:45 a 13:45"></dia>
+			</horas>
+						
+		</asignatura>
+
+		<asignatura nombre="Gestion de Base de Datos">
+			<profesor>Juan Diego</profesor>
+			<aula>4</aula>
+			<horas>
+				<dia dia="martes, de 8:15 a 11:15"></dia>
+				<dia dia="viernes, de 8:15 a 11:15"></dia>	
+			</horas>
+					
+		</asignatura>
+
+		<asignatura nombre="Formacion y orientacion laboral">
+			<profesor>Emilio</profesor>
+			<aula>4</aula>
+			<horas>
+				<dia dia="Lunes, de 10:15 a 11:15"></dia>
+				<dia dia="miercoles, de 13:45 a 14:45"></dia>
+				<dia dia="jueves, de 8:15 a 10:15"></dia>
+			</horas>
+						
+		</asignatura>
+
+		<asignatura nombre="empresas">
+			<profesor>Emilio</profesor>
+			<aula>3</aula>
+			<horas>
+				<dia dia="Lunes, de 11:15 a 12:45"></dia>
+				<dia dia="martes, de 13:45 a 14:45"></dia>
+				<dia dia="miercoles, de 10:15 a 11:15"></dia>
+				<dia dia="viernes, de 11:45 a 12:45"></dia>
+			</horas>
+					
+		</asignatura>
+
+	</horario>

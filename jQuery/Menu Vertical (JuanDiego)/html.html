@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+  	<title>Menu Vertical (Juan Diego)</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <link rel="stylesheet" type="text/css" href="estilos.css">
+    <script src="js/jquery-3.1.1.min.js"></script>
+    </head>
+    <body>
+
+      <div id="sidebar">
+        <div id="content">
+
+          <img src="jQuery.gif" alt="">
+
+          <ul>
+            <li>A</li>
+            <li>B</li>
+            <li>C</li>
+            <li>D</li>
+          </ul>
+          
+        </div>
+
+        <div id="icons">
+
+          <img class="arrow" id="close" src="close_arrow.png" />
+          <img class="arrow" id="open" src="open_arrow.png" />
+          
+        </div>
+        
+      </div>
+      <script>
+        //Function executed when the HTML document is Ready (full loaded)
+        $(function() {
+
+          $("#content").hide();
+          $("#close").hide();
+
+          $("#open").click(function(){
+
+            $("#content").show();
+            $("#close").show();
+            $(this).hide();
+          });
+
+          $("#close").click(function(){
+
+            $("#content").hide();
+            $("#open").show();
+            $(this).hide();
+          });
+
+        });
+      </script>
+    </body>
+</html>

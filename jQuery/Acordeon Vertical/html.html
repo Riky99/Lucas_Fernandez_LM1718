@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Acordeon Vertical</title>
+  <link rel="stylesheet" type="text/css" href="estilos.css">
+  <script src="js/jquery-3.1.1.min.js"></script>
+</head>
+<body>
+  <h1>ACORDEON VERTICAL</h1>
+  <div class="contenedor">
+
+    <div class="caracteristicas1">
+      <div class="titulos">
+        <h1>CARACTERISTICAS</h1>
+      </div>
+    </div>
+    <div class="caracteristicas">
+      <div class="contenidos">
+        <img id="img_tzr" src="img/tzr.png" alt="">
+        <p>A finales de 1980 y principios de 1990 , Yamaha Motor Company Limited fabrican y venden una serie de ligeros motocicletas deportivas . La Yamaha TZR 125 era uno de ellos . El " 125 " en el nombre de la moto se refiere al desplazamiento del motor
+          de la moto y define la clase de las motos a los que pertenece la Yamaha TZR 125 . La Yamaha TZR 125 se fabricó y vendió entre 1987 y 1992. Powertrain. La Yamaha TZR 125 viene con una 124 cc , o 7,57 centímetros cúbicos , de dos tiempos refrigerado
+          por líquido motor de un solo cilindro . Diámetro y medida de accidente cerebrovascular 56,4 y 50 mm del motor , respectivamente. </p>
+      </div>
+    </div>
+
+    <div class="precio1">
+      <div class="titulos">
+        <h1>PRECIO</h1>
+      </div>
+    </div>
+    <div class="precio">
+      <div class="contenidos">
+        <p>PRECIO DE VENTA AL PÚBLICO: 3000€</p>
+        <p>IVA:21%</p>
+        <p>TOTAL:3630€</p>
+      </div>
+    </div>
+
+    <div class="galeria1">
+      <div class="titulos">
+        <h1>GALERIA</h1>
+      </div>
+
+    </div>
+    <div class="galeria">
+      <div class="contenidos">
+        <div>
+          <img src="img/tzr1.png" alt="">
+          <img src="img/tzr2.png" alt="">
+
+        </div>
+        <div id="img2">
+          <img src="img/tzr3.png" alt="">
+          <img src="img/tzr4.png" alt="">
+        </div>
+
+      </div>
+    </div>
+
+
+    <div class="opiniones1">
+      <div class="titulos">
+        <h1>OPINIONES</h1>
+      </div>
+    </div>
+    <div class="opiniones">
+      <div class="contenidos">
+        <p>-Yo creo que es una moto preciosa, y si te gustan las viejunas, pues cojela, si te sale mala al desguace ( no creo, son unas piedras estas motos), total dinero no creo que pierdas mucho.
+        </p>
+        <p>-Son motos muy duras y divertidas, andan muy bien. La de la foto no lleva las llantas de origen (lleva las de la sigiente serie) por eso lleva disco atras. </p>
+        <p>-Lo de las llantas me despisto a mi tambien, viendo los carenados y el foco parece que es la que llevaba 18 detras y 17 o 16 delande ya no me acuerdo, la que a mi mas me gustaba era la ultima serie, con llantas de 17, horquilla invertida (aunque
+          tenia pinta de ser enclenque) y un motor como ninguno en su categoria</p>
+      </div>
+
+    </div>
+  </div>
+
+  </div>
+  <script>
+    //Function executed when the HTML document is Ready (full loaded)
+    $(function() {
+
+      $(".caracteristicas").hide();
+      $(".precio").hide();
+      $(".galeria").hide();
+      $(".opiniones").hide();
+
+      $(".caracteristicas1").click(function(){
+
+        $(".caracteristicas").toggle();
+        $(".precio").hide();
+        $(".galeria").hide();
+        $(".opiniones").hide();
+      });
+
+      $(".precio1").click(function(){
+
+        $(".precio").toggle();
+        $(".caracteristicas").hide();
+        $(".galeria").hide();
+        $(".opiniones").hide();
+      });
+
+      $(".galeria1").click(function(){
+
+        $(".galeria").toggle();
+        $(".caracteristicas").hide();
+        $(".precio").hide();
+        $(".opiniones").hide();
+      });
+
+      $(".opiniones1").click(function(){
+
+        $(".opiniones").toggle();
+        $(".caracteristicas").hide();
+        $(".precio").hide();
+        $(".galeria").hide();
+      });
+
+
+      // $(".caracteristicas1").click(function() {
+      //   $(".caracteristicas").animate({
+
+      //     height: "toggle",
+      //     opacity: "toggle",
+      //   });
+      //   $(".precio").hide();
+      //   $(".galeria").hide();
+      //   $(".opiniones").hide();
+      // });
+      // $(".precio1").click(function() {
+      //   $(".precio").animate({
+
+      //     height: "toggle",
+      //     opacity: "toggle",
+      //   });
+      //   $(".caracteristicas").hide();
+      //   $(".galeria").hide();
+      //   $(".opiniones").hide();
+      // });
+      // $(".galeria1").click(function() {
+      //   $(".galeria").animate({
+
+      //     height: "toggle",
+      //     opacity: "toggle",
+      //   });
+      //   $(".caracteristicas").hide();
+      //   $(".precio").hide();
+      //   $(".opiniones").hide();
+      // });
+      // $(".opiniones1").click(function() {
+      //   $(".opiniones").animate({
+
+      //     height: "toggle",
+      //     opacity: "toggle",
+      //   });
+      //   $(".caracteristicas").hide();
+      //   $(".precio").hide();
+      //   $(".galeria").hide();
+      // });
+    });
+  </script>
+</body>
+</html>

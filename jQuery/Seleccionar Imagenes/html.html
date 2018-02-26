@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="estilos.css">
+		<script src="js/jquery-3.1.1.min.js"></script>
+	</head>
+	<body>
+		<div id="container">
+			<div>
+				<img src="img/burro.jpg" alt="" title="burro">
+				<img src="img/gallo.jpg" alt="" title="gallo">
+				<img src="img/gato.jpg" alt="" title="gato">
+				<img src="img/leon.jpg" alt="" title="leon">
+				
+			</div>
+			<div>
+				<img src="img/mono.jpg" alt="" title="mono">
+				<img src="img/oso.jpg" alt="" title="oso">
+				<img src="img/perro.jpg" alt="" title="perro">
+				<img src="img/zorro.jpg" alt="" title="zorro">
+				
+			</div>
+			<div>
+				<input type="text" name="" value="" placeholder="" >
+				<input type="button" name="" value="Buscar">
+			</div>
+			
+		</div>
+		<script>
+		//Function executed when the HTML document is Ready (full loaded)
+		$(function() {
+			$("input[type='button']").click(function(event) {
+				/* Act on the event */
+				var nombre = $("input[type='text']").val();
+				
+				$("img").removeClass("seleccionada");
+
+				$("img").each(function() {
+
+					var title = $(this).attr("title");
+					if (nombre == title) {
+						$(this).addClass("seleccionada");
+					}
+					
+				});
+				
+			});
+		});
+		</script>
+	</body>
+</html>

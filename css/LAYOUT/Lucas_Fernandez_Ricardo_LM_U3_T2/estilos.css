@@ -1,0 +1,272 @@
+* {
+
+	box-sizing: border-box;
+
+}
+.container {
+
+	width: 920px;
+	height: 520px;
+	background-color: #F3E7E7;
+	margin: 0px auto;
+
+}
+.menu1 {
+
+	float:left;
+	width: 28%;
+	margin-left: 10px;
+
+}
+
+#bizz {
+
+	font-family: georgia;
+	font-size: 145%;
+}
+
+#bizz span {
+
+	color: #2688D3;
+}
+
+#consulting {
+
+	width: 50px;
+	height: 20px;
+	float: right;
+	margin-right: 760px;
+
+}
+.menu2 {
+
+	float:right;
+	width: 65%;
+	margin-top: 10px;
+	margin-left:54px;
+}
+.menu2 div {
+
+	float:left;
+	margin-left: 10%;
+
+}
+.cabecera {
+
+	height: 70px;
+
+}
+.home {
+
+	float: right;
+
+}
+.menu3 {
+
+	width: 870px;
+	height: 300px;
+	background-color: #E4D6D6;
+	margin: 0px auto;
+	padding-top: 10px;
+	border-radius: 8px 8px 8px 8px;	
+
+}
+.welcome {
+
+	width: 40px;
+	height: 280px;
+	background-color: #FF9205;
+	text-align: center;
+	margin-left: 10px;
+	border-radius: 8px 8px 8px 8px;
+	padding-top: 180px;
+	float: left;
+	margin-right: 10px;
+
+}
+#uno {
+
+	color: white;
+	font-size: 2.5em;
+	margin-bottom: -80px;
+	margin-top: 160px;
+
+}
+#letra_w {
+
+	transform: rotate( -90deg );
+	margin-top: -130px;
+	color: white;
+	font-family: arial;
+
+}
+.imagen img {
+
+	width: 600px;
+	height: 280px;
+	border-radius: 8px 8px 8px 8px;
+
+
+}
+.imagen {
+
+	width: 600px;
+	float: left;
+
+}
+.investments {
+
+	width: 40px;
+	height: 280px;
+	background-color: #FAB101;
+	text-align: center;
+	padding-top: 180px;
+	border-radius: 8px 8px 8px 8px;
+	float: left;
+	margin-left: 10px;
+
+}
+#letra_i {
+
+	transform: rotate( -90deg );
+	margin-top: -110px;
+	color: white;
+	font-family: arial;
+
+}
+#dos {
+
+	color: white;
+	font-size: 2.5em;
+	margin-bottom: -80px;
+	margin-top: 140px;
+
+}
+.corporate {
+
+	width: 40px;
+	height: 280px;
+	background-color: #F9FC03;
+	text-align: center;
+	padding-top: 180px;
+	border-radius: 8px 8px 8px 8px;
+	float: left;
+	margin-left: 10px;
+
+}
+#letra_c {
+
+	transform: rotate( -90deg );
+	margin-top: -110px;
+	color: white;
+	font-family: arial;
+
+}
+#tres {
+
+	color: white;
+	font-size: 2.5em;
+	margin-bottom: -80px;
+	margin-top: 120px;
+
+}
+.markets {
+
+	width: 40px;
+	height: 280px;
+	background-color: #5AF008;
+	float: left;
+	border-radius: 8px 8px 8px 8px;
+	margin-left: 10px;
+
+}
+#letra_m {
+
+	transform: rotate( -90deg );
+	margin-top:70px;
+	color: white;
+	font-family: arial;
+
+}
+#cuatro {
+
+	color: white;
+	font-size: 2.5em;
+	margin-top: 120px;
+	text-align: center;
+
+}
+.financing {
+
+	width: 40px;
+	height: 280px;
+	background-color: #7CD625;
+	float: left;
+	border-radius: 8px 8px 8px 8px;
+	margin-left: 10px;
+
+}
+#letra_f {
+
+	transform: rotate( -90deg );
+	margin-top:70px;
+	color: white;
+	font-family: arial;
+
+}
+#cinco {
+
+	color: white;
+	font-size: 2.5em;
+	margin-top: 120px;
+	text-align: center;
+
+}
+.solutions {
+
+	width: 188px;
+	height: 130px;
+	background-color:#E4D6D6;
+	margin:20px;
+	float: left;
+	border-radius: 8px 8px 8px 8px;
+
+}
+.solutions img {
+
+	margin:5px;
+	float: left;
+	width: 35px;
+
+}
+.solutions p {
+
+	float: left;
+
+}
+.flecha {
+
+	width: 150px;
+	height: 41px;
+	margin:0px auto;
+
+}
+.parrafo  {
+
+	width: 170px;
+	height: 40px;
+
+}
+.parrafo p {
+
+	width: 170px;
+	font-size:0.83em;
+	margin:10px;
+	text-align: left;
+
+}
+hr {
+
+	margin-top: 8px;
+
+	}

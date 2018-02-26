@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE bus>
+<ruta_bus>
+
+<linea1>
+	
+	<parada nombre="instituto Becker">
+		
+		<horasalida>7:00</horasalida>
+		<horallegada>7:10</horallegada>
+		<calle nombre="lopez de gomara"></calle>
+	</parada>
+	<parada nombre="blasinfantes">
+		
+		<horasalida>7:20</horasalida>
+		<horallegada>7:30</horallegada>
+		<calle nombre="republica de argentina"></calle>
+	</parada>
+	<parada nombre="parquedelosprincipes">
+		
+		<horasalida>7:40</horasalida>
+		<horallegada>8:00</horallegada>
+		<calle nombre="republica de argentina"></calle>
+	</parada>
+	<parada nombre="pradosansebastian">
+		
+		<horasalida>8:10</horasalida>
+		<horallegada>8:20</horallegada>
+		<calle nombre="avenida ramon y cajal"></calle>
+	</parada>
+	<parada nombre="sanbernardo">
+		
+		<horasalida>8:30</horasalida>
+		<horallegada>8:40</horallegada>
+		<calle nombre="avenida ramon y cajal"></calle>
+	</parada>
+</linea1>
+</ruta_bus>

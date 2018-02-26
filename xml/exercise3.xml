@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LibroCocina>
+	<receta1>crema de calabaza</receta1>
+	<tiempo_preparacion>40 minutos</tiempo_preparacion>
+	<ingredientes>
+	<ingrediente1>400 gramos de calabaza</ingrediente1>
+	<ingrediente2>1 brick de nata</ingrediente2>
+	<ingrediente3>Queso rallado</ingrediente3>
+	<ingrediente4>1 cebolla grande</ingrediente4>
+	<ingrediente5>Pan</ingrediente5>
+	<ingrediente6>1 diente de ajo</ingrediente6>
+	<ingrediente7>Aceite</ingrediente7>
+	<ingrediente8>Pimienta</ingrediente8>
+	<ingrediente9>Sal</ingrediente9>
+	</ingredientes>
+	   <preparacion>
+		    Ponemos dos cucharadas soperas de aceite en una olla mediana y freímos el ajo cortado en rodajas hasta que se dore. Cuando el ajo está dorado añadimos la cebolla cortada en trocitos y la rehogamos.
+		    Cuando la cebolla esté frita (cuidado con no quemarla) añadimos la calabaza y lo freímos todo unos momentos revolviendo continuamente. Después, añadimos agua hasta cubrir todos los trozos de calabaza. Añadimos sal y pimienta al gusto. Cocemos todo a fuego medio hasta que la calabaza esté blanda, aproximadamente unos 30 minutos.
+		    Cuando la calabaza esté blanda, se tritura todo con la batidora y se le añade el brick de nata. Aprovechamos para añadir sal si vemos que le falta.
+		    Como acompañamiento del plato, cortamos el pan en trocitos y lo freímos con abundante aceite. Añadimos el queso rallado y el pan frito al plato y servimos.
+	</preparacion>
+	<receta2>Cocido Madrileño</receta2>
+	<tiempo_preparacion>45 minutos</tiempo_preparacion>
+	<ingredientes>
+	<ingrediente1>4 zanahorias</ingrediente1>
+	<ingrediente2>Nabo</ingrediente2>
+	<ingrediente3>Puerro</ingrediente3>
+	<ingrediente4>Apio</ingrediente4>
+	<ingrediente5>Porciones de ternera (pecho, falda, huesos y espinazo)</ingrediente5>
+	<ingrediente6>Prociones de cerdo (paleta con hueso y espinazo)</ingrediente6>
+	<ingrediente7>Un cuarto de pollo</ingrediente7>
+	<ingrediente8>Tocino</ingrediente8>
+	<ingrediente9>Hueso de jamón</ingrediente9>
+	<ingrediente10>Chorizo</ingrediente10>
+	<ingrediente11>Morcilla (opcional)</ingrediente11>
+	<ingrediente12>Garbanzos</ingrediente12>
+	<ingrediente13>Fideos</ingrediente13>
+	<ingrediente14>Sal</ingrediente14>
+	</ingredientes>
+	   <preparacion>
+		    Ponemos tres cuartos de litro de leche a hervir con la nata. Los demás ingredientes los colocamos en un bol y los trituramos. Cuando la leche este hervida la retiramos del fuego y le añadimos los ingredientes triturados. Posteriormente lo ponemos todo al fuego a baja temperatura sin dejar de remover para que no se pegue. Cuando empiece a cuajar lo retiramos, dejamos unos segundos y ponemos al fuego de nuevo.
+		    Posteriormente, ponemos el azúcar caramelizado en una fuente, retiramos los ingredientes del fuego y los ponemos en la fuente. Añadimos una capa doble con las galletas.
+		    Por último, lo dejamos enfriar en el frigorífico y servimos dándole la vuelta como si fuera un flan.
+	</preparacion>
+</LibroCocina>

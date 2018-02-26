@@ -1,0 +1,48 @@
+.contenedor, .contenedor-con-altura {
+  width: 1024px; }
+
+h1, h2, h3, p {
+  color: #AAAAAA; }
+
+.contenedor-con-altura {
+  height: 510px; }
+
+ul {
+  font-size: 1.2rem;
+  color: red; }
+  ul ul {
+    font-size: 0.7rem;
+    color: green; }
+    ul ul ul {
+      font-size: 0.5rem;
+      color: blue; }
+
+a {
+  color: blue;
+  text-decoration: none;
+  font-size: 1.2rem; }
+  a a:hover {
+    color: green;
+    text-decoration: underline; }
+
+.mitad {
+  width: 512px; }
+
+.cuarto {
+  width: 256px; }
+
+.octavo {
+  width: 128px; }
+
+.decimo {
+  width: 102.4px; }
+
+@mixim border-radius($radius) {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  border-radius: 5px; }
+box {
+  @include-border-radius (10px); }
+
+/*# sourceMappingURL=style.css.map */

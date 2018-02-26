@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="estilos.css">
+    <script src="js/jquery-3.1.1.min.js"></script>
+    </head>
+    <body>
+
+    	<div class="container">
+
+    		<div class="cuadrado">
+    			
+    		</div>
+    		
+    	</div>
+      <script>
+        //Function executed when the HTML document is Ready (full loaded)
+        $(function() {
+
+        	$("body").keypress(function(event) {
+
+        		var tecla = event.which;
+        		console.log(tecla);
+
+        		var left = parseInt($(".cuadrado").css("width"));
+				var height = parseInt($(".cuadrado").css("width"));
+
+        		if (tecla == 43 && left > 0) {
+						$(".cuadrado").animate({
+							width : "+=10px",
+							height : "+=10px" 
+						},200);
+					}
+
+				if (tecla == 45 && height > 0) {
+						$(".cuadrado").animate({
+							width : "-=10px",
+							height : "-=10px"
+						},200);
+					}
+        	});
+
+        	
+
+        });
+      </script>
+    </body>
+</html>

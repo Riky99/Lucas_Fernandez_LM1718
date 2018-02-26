@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ciclo>
+
+<cicloASIR>
+
+	<curso orden="primero" >
+
+	<asignatura>
+		<nombre>iso</nombre>
+		<cod>iso</cod>
+		<matriculas>
+			<alumno nombre="Pepe" apellidos="Perez"></alumno>
+			<alumno nombre="Rosa" apellidos="Torres"></alumno>
+		</matriculas>
+	</asignatura>
+
+<asignatura>
+		<nombre>hardware</nombre>
+		<cod>hd</cod>
+		<matriculas>
+			<alumno nombre="Pepe" apellidos="Perez"></alumno>
+			<alumno nombre="Rosa" apellidos="Torres"></alumno>
+		</matriculas>
+	</asignatura>
+
+	<asignatura>
+		<nombre>lenguaje de marcas</nombre>
+		<cod>lm</cod>
+		<matriculas>
+			<alumno nombre="Pepe" apellidos="Perez"></alumno>
+			<alumno nombre="Rosa" apellidos="Torres"></alumno>
+		</matriculas>
+	</asignatura>
+
+	<asignatura>
+		<nombre>base de datos</nombre>
+		<cod>gbd</cod>
+		<matriculas>
+			<alumno nombre="Pepe" apellidos="Perez"></alumno>
+			<alumno nombre="Rosa" apellidos="Torres"></alumno>
+		</matriculas>
+	</asignatura>
+
+	<asignatura>
+		<nombre>redes</nombre>
+		<cod>pldr</cod>
+		<matriculas>
+			<alumno nombre="Pepe" apellidos="Perez"></alumno>
+			<alumno nombre="Rosa" apellidos="Torres"></alumno>
+		</matriculas>
+	</asignatura>
+
+	<asignatura>
+		<nombre>fol</nombre>
+		<cod>fol</cod>
+		<matriculas>
+			<alumno nombre="Pepe" apellidos="Perez"></alumno>
+			<alumno nombre="Rosa" apellidos="Torres"></alumno>
+		</matriculas>
+	</asignatura>
+
+</curso>
+
+	
+
+	<curso orden="segundo" >
+
+	<asignatura>
+		<nombre>ageba</nombre>
+		<cod>ageba</cod>
+		<matriculas>
+			<alumno nombre="Pepe" apellidos="Perez"></alumno>
+			<alumno nombre="Rosa" apellidos="Torres"></alumno>
+		</matriculas>
+	</asignatura>
+
+	<asignatura>
+		<nombre>empresa</nombre>
+		<cod>empre</cod>
+		<matriculas>
+			<alumno nombre="Pepe" apellidos="Perez"></alumno>
+			<alumno nombre="Rosa" apellidos="Torres"></alumno>
+		</matriculas>
+	</asignatura>
+
+	<asignatura>
+		<nombre>segin</nombre>
+		<cod>segin</cod>
+		<matriculas>
+			<alumno nombre="Pepe" apellidos="Perez"></alumno>
+			<alumno nombre="Rosa" apellidos="Torres"></alumno>
+		</matriculas>
+	</asignatura>
+
+	<asignatura>
+		<nombre>impla</nombre>
+		<cod>impla</cod>
+		<matriculas>
+			<alumno nombre="Pepe" apellidos="Perez"></alumno>
+			<alumno nombre="Rosa" apellidos="Torres"></alumno>
+		</matriculas>
+	</asignatura>
+
+	<asignatura>
+		<nombre>segap</nombre>
+		<cod>segap</cod>
+		<matriculas>
+			<alumno nombre="Pepe" apellidos="Perez"></alumno>
+			<alumno nombre="Rosa" apellidos="Torres"></alumno>
+		</matriculas>
+	</asignatura>
+
+	<asignatura>
+		<nombre>asioap</nombre>
+		<cod>asioap</cod>
+		<matriculas>
+			<alumno nombre="Pepe" apellidos="Perez"></alumno>
+			<alumno nombre="Rosa" apellidos="Torres"></alumno>
+		</matriculas>
+	</asignatura>
+
+</curso>
+
+	
+</cicloASIR>

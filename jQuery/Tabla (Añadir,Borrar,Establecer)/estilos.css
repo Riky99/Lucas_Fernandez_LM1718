@@ -1,0 +1,6 @@
+* {
+  box-sizing: border-box;
+}
+td {
+	border: 3px solid black;
+}

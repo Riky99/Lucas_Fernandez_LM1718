@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ordenador>
+
+<hardware>
+	
+		<equipo nombre="PcCom Basic">
+
+			<piezas>
+				<pieza nombre="Placa Base ">
+					<tipo>placa base</tipo>
+					<fabricante>Asus</fabricante>
+					<precio>100€</precio>
+					<caracteristicas>
+						Intel® Socket 1151 para la 6ª generación de procesadores Core™ i7/Core™ i5/Core™ i3/Pentium®/Celeron®					
+					</caracteristicas>
+				</pieza>
+
+				<pieza nombre="procesador ">
+					<tipo>procesador</tipo>
+					<fabricante>Intel</fabricante>
+					<precio>60€</precio>
+					<caracteristicas>Intel Core i3-6100 3.7Ghz</caracteristicas>
+				</pieza>
+
+				<pieza nombre="memoria ram">
+					<tipo>memoria ram</tipo>
+					<fabricante>Kingston</fabricante>
+					<precio>45</precio>
+					<caracteristicas>DDR4 2133 PC4-17000 4GB CL15</caracteristicas>
+				</pieza>
+
+				<pieza nombre="wifi">
+					<tipo>Tarjeta Wifi</tipo>
+					<fabricante>TP-LINK</fabricante>
+					<precio>14€</precio>
+					<caracteristicas>300Mbs de velocidad</caracteristicas>
+				</pieza>
+
+				<pieza nombre="caja">
+					<tipo>torre</tipo>
+					<fabricante>Owlotech</fabricante>
+					<precio>40€</precio>
+					<caracteristicas>una torre en formato ATX </caracteristicas>
+				</pieza>
+
+				<pieza disco="Disco Duro">
+					<tipo>hdd</tipo>
+					<fabricante>Kingston</fabricante>
+					<precio>50€</precio>
+					<caracteristicas>1tb</caracteristicas>
+				</pieza>
+
+				<pieza discosolido="disco de estado solido">
+					<tipo>ssd</tipo>
+					<fabricante>Kingston</fabricante>
+					<precio>60€</precio>
+					<caracteristicas>120gb</caracteristicas>
+				</pieza>
+
+
+				<pieza tarjeta="Tarjeta Gráfica Gigabyte">
+					<tipo>  PCI Express</tipo>
+					<fabricante>nvidia</fabricante>
+					<precio>47€</precio>
+					<caracteristicas>Gigabyte GeForce GT 710 2GB GDDR3</caracteristicas>
+				</pieza>
+
+				<pieza nombre="tarjeta de red">
+					<tipo>integrada</tipo>
+					<fabricante>TP-LINK</fabricante>
+					<precio>13€</precio>
+					<caracteristicas>10/100/1000 Mbps</caracteristicas>
+				</pieza>
+
+				<pieza nombre="raton">
+					<tipo>optico</tipo>
+					<fabricante>Newskill </fabricante>
+					<precio>50€</precio>
+					<caracteristicas>Nukite Ratón Gaming MMO/MOBA RGB 16000 DPI</caracteristicas>
+				</pieza>
+
+				
+
+			</piezas>
+			
+		</equipo>
+
+</hardware>

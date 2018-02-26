@@ -1,0 +1,19 @@
+* {
+	box-sizing: border-box;
+}
+
+.cuadrado {
+
+	margin: 200px auto;
+	width: 100px;
+	height: 100px;
+	background-color: #62EF0FFF;
+}
+
+.container {
+
+	border:1px solid black;
+	width:500px;
+	height: 500px;
+	margin: 0px auto;
+}

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE cine>
+
+	<cartelera>
+		<pelicula nombre="piratas del caribe, la venganza de salazar">
+			<sesiones>
+				<sesion>17:40</sesion>
+				<sesion>20:30</sesion>
+				<sesion>23:40</sesion>
+			</sesiones>
+			<sala>8</sala>			
+			
+			<director>Joachim Rønning</director>
+			<protagonistas>
+				<protagonista>Jack Sparrow</protagonista>
+				<protagonista>Salazar</protagonista>
+			</protagonistas>
+			<resumen>En la nueva aventura, un desafortunado Jack Sparrow descubre que los vientos de la mala fortuna soplan incluso más fuerte cuando los mortales piratas fantasmas liderados por su viejo enemigo, el terrorífico Capitán Salazar, escapan del Triángulo del Diablo, decididos a matar a todo pirata en el mar, incluido él. La única esperanza de supervivencia del Capitán Jack se encuentra en la búsqueda del legendario Tridente de Poseidón, un poderoso artefacto que otorga a su poseedor un control total sobre los mares. Johnny Depp ('Black Mass. Estrictamente criminal', 'Mortdecai') vuelve a protagonizar esta nueva película de la franquicia de 'Piratas del Caribe', que se convierte en la quinta de la saga. Joachim Rønning ('Kon-Tiki', 'Max Manus') y Espen Sandberg ('Bandidas') son los encargados de dirigir la película que cuenta con la mayoría de los actores originales como Orlando Bloom ('Reencontrando el amor', 'Romeo y Julieta'), Geoffrey Rush ('Dioses de Egipto', 'La ladrona de libros') y Kevin McNally ('El enigma del cuervo', 'The Man Who Knew Infinity'). Ocultar sinopsis completa</resumen>
+		</pelicula>
+
+		<pelicula nombre="fast and furious 8">
+			<sesiones>
+				<sesion>12:30</sesion>
+				<sesion>17:30</sesion>
+				<sesion>22:00</sesion>
+			</sesiones>			
+			
+			<director>F. Gary Gray</director>
+			<protagonistas>
+				<protagonista>Dominic Toretto</protagonista>
+				<protagonista>Letty Ortiz</protagonista>
+			</protagonistas>
+			<resumen>Con Dom y Letty de luna de miel, Brian y Mia fuera del juego y el resto de la pandilla exonerada de todo cargo, el equipo está instalado en una vida aparentemente normal. Pero cuando una misteriosa mujer (Theron) seduce a Dom (Diesel) para regresar nuevamente al mundo del crimen, se ve incapaz de rechazar la oportunidad, traicionando así a todo el mundo cercano a él. A partir de ese momento todos se enfrentarán a pruebas como nunca antes habían tenido. Desde las costas de Cuba y las calles de Nueva York hasta las llanuras del mar de Barents en el océano Ártico, nuestra fuerza de élite recorrerá el globo para impedir que un anarquista desencadene el caos en el mundo... y por supuesto para traer de vuelta a casa al hombre que les hizo una familia</resumen>
+		</pelicula>
+
+		<pelicula nombre="El corredor del laberinto 2, las pruebas">
+			<sesiones>
+				<sesion>15:00</sesion>
+				<sesion>18:00</sesion>
+				<sesion>23:30</sesion>
+			</sesiones>			
+			
+			<director>Wes Ball</director>
+			<protagonistas>
+				<protagonista>Thomas</protagonista>
+				<protagonista>Minho</protagonista>
+			</protagonistas>
+			<resumen>En este nuevo capítulo de la trepidante saga “El Corredor del Laberinto”, Thomas (Dylan O’Brien) y el resto de clarianos tendrán que enfrentarse a su mayor desafío hasta el momento: buscar pistas sobre la misteriosa y poderosa organización conocida como CRUEL. Este viaje les llevará a “La Quemadura”, un apocalíptico lugar repleto de inimaginables obstáculos. Formando equipo con miembros de la resistencia, los clarianos deberán desenmascarar a las fuerzas superiores de CRUEL y averiguar qué planes tienen para todos ellos.</resumen>
+		</pelicula>
+
+		<pelicula nombre="India Jones y el templo maldito">
+			<sesiones>
+				<sesion>14:00</sesion>
+				<sesion>19:00</sesion>
+				<sesion>22:00</sesion>
+			</sesiones>			
+			
+			<director>Steven Spielberg</director>
+			<protagonistas>
+				<protagonista>Indiana Jones</protagonista>
+				<protagonista>Willie Scott</protagonista>
+			</protagonistas>
+			<resumen>1935. Shanghai. El intrépido arqueólogo Indiana Jones, tras meterse en jaleos en un local nocturno, consigue escapar junto a una bella cantante y su joven acompañante. Tras un accidentado vuelo, los tres acaban en la India, donde intentarán ayudar a los habitantes de un pequeño poblado, cuyos niños han sido raptados.</resumen>
+		</pelicula>
+
+		<pelicula nombre="Tiburon">
+			<sesiones>
+				<sesion>17:00</sesion>
+				<sesion>20:00</sesion>
+				<sesion>24:00</sesion>
+			</sesiones>	
+			
+			<director>Steven Spielberg</director>
+			<protagonistas>
+				<protagonista>Martin Brody</protagonista>
+				<protagonista>Matt Hooper</protagonista>
+			</protagonistas>
+			<resumen>En la costa de un pequeño pueblo del Este de los Estados Unidos, un enorme tiburón ataca a varias personas. Por temor a los nefastos efectos que este hecho podría tener sobre el negocio turístico, el alcalde se niega a cerrar las playas y a difundir la noticia. Pero un nuevo ataque del tiburón termina con la vida de un bañista. Cuando el terror se apodera de todos, un veterano cazador de tiburones, un oceanógrafo y el jefe de la policía local se unen para capturar al escualo.</resumen>
+		</pelicula>
+
+
+	</cartelera>
+	
+		
+

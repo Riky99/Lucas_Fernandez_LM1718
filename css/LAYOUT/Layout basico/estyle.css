@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+
+}
+
+div.centrado {
+  background-color: blue;
+  height: 300px;
+  margin: 20px auto;
+  width: 60%;
+
+  /*para centrar un div se le da altura, y anchura + margin: 0px auto
+position:
+por defecto tiene estatic
+si utulizo el position es para posicionar la caja respecto a algo
+position: top, bottom, left, right
+para que no cambie la posicion se pone position:fixed
+
+absolute: lo posiciona con respecto a la primera caga que se encuentre que
+tenga relative
+
+El float hace que lo que venga despues se ponga en en linea si cambie, si queremos que no flote se pone clear
+
+el overflow:auto es para que no se ponte el div con la imagen
+  */
+}

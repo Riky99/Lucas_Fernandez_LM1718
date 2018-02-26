@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Horario</title>
+	<script src="js/jquery-3.1.1.min.js"></script>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="estilos.css">
+</head>
+<body>
+
+	<table>
+    <tbody>
+      <tr>
+        <td>Horas</td>
+        <td>Lunes</td>
+        <td>Martes</td>
+        <td>Miercoles</td>
+        <td>Jueves</td>
+        <td>Viernes</td>
+      </tr>
+      <tr>
+        <td class="horas">8:15-9:15</td>
+        <td>LM</td>
+        <td>GBD</td>
+        <td>ISO</td>
+        <td>FOL</td>
+        <td>GBD</td>
+      </tr>
+      <tr>
+        <td class="horas">9:15-10:15</td>
+        <td>LM</td>
+        <td>GBD</td>
+        <td>ISO</td>
+        <td>FH</td>
+        <td>GBD</td>
+      </tr>
+      <tr>
+        <td class="horas">10:15-11:15</td>
+        <td>FOL</td>
+        <td>GBD</td>
+        <td>ISO</td>
+        <td>FH</td>
+        <td>GBD</td>
+      </tr>
+      <tr>
+        <td class="horas">11:15-11:45</td>
+        <td colspan="5" align="center">RECREO</td>
+      </tr>
+      <tr>
+        <td class="horas">11:45-12:45</td>
+        <td>ISO</td>
+        <td>REDES</td>
+        <td>LM</td>
+        <td>FH</td>
+        <td>REDES</td>
+      </tr>
+      <tr>
+        <td class="horas">12:45-13:45</td>
+        <td>ISO</td>
+        <td>REDES</td>
+        <td>LM</td>
+        <td>ISO</td>
+        <td>REDES</td>
+      </tr>
+      <tr>
+        <td class="horas">13:45-14:45</td>
+        <td>ISO</td>
+        <td>REDES</td>
+        <td>FOL</td>
+        <td>ISO</td>
+        <td>REDES</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+	<script>
+	  //Function executed when the HTML document is Ready (full loaded)
+	  $(function() {
+
+			$("tbody tr:nth-child(1)").css({"background-color":"green", "color":"white"});
+			$(".horas").css({"background-color":"red", "color":"white"});
+			$("tbody tr:nth-child(5)").css({"background-color":"red	", "color":"yellow"});
+
+			// dias: letra blanco, fonde verde,
+			// recreo: letra amarilla, fondo rojo
+			// horario fondo-rojo, letra:lanca
+	  	// $("#caja").css("background-color","blue");
+
+
+
+	  });
+	</script>
+
+</body>
+</html>

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="estilos.css">
+		<script src="js/jquery-3.1.1.min.js"></script>
+	</head>
+	<body>
+		<div class="container">
+			
+			<div class="menu">
+				<h2>Seccion 1.</h2>
+				<h2>Seccion 2.</h2>
+				<h2>Seccion 3.</h2>
+				<h2>Seccion 4.</h2>
+			</div>
+			<div class="menu2">
+				
+				<input id="nombre" type="text" name="" value="" placeholder="Nombre">
+				<input id="enviar" type="button" name="" value="Enviar">
+				<div class="corazon">
+					<img src="corazon.png" width="200px" alt="">
+					
+				</div>
+				<h3>Te quiero</h3>
+			</div>
+		</div>
+		<script>
+		//Function executed when the HTML document is Ready (full loaded)
+		$(function() {
+				$(".menu").hide();
+
+				$("body").mousemove(function(event) {
+
+					if (event.pageY < 100 ) {
+						$(".menu").slideDown();
+				
+				 }
+
+				 $(".menu").mouseleave(function(event){
+				 		$(this).slideUp();
+				 });
+
+				});
+				
+
+				$("#enviar").click(function(){
+
+					var enviar = $("#nombre").val();
+
+					$(".menu2 h3").text("Te quiero: " +enviar);
+
+
+
+				});
+
+					$(".corazon").mouseenter(function(event) {
+					/* Act on the event */
+
+					$("img").css("width" , "300px")
+				});
+
+				$(".corazon").mouseleave(function(event){
+
+					$("img").css("width" , "200px")
+
+				});
+			
+			/*
+						.val()
+						.html o text()
+						.mousemove()
+						mouseenter()
+						mouseleave()
+						slideUp()
+						SlideDown()
+			
+			cuando eventY sea menor que 100 se muestra el menu y cuando sea mayor que 100 se esconde */
+		});
+		</script>
+	</body>
+</html>

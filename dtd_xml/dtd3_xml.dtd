@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<resultados>
+	<partido Resultado="1-1">
+		<equipo>
+			<nombre localidad="local">Real Madrid C.F</nombre>
+
+			<goles penaltis="No">
+					<nombre>Sergio Ramos</nombre>
+					<minuto>92:48</minuto>
+					
+			</goles>
+			<tarjetas>
+					<amarillas>
+						<nombre>Toni-Kroos</nombre>
+						<nombre>Casemiro</nombre>
+					</amarillas>
+
+					<rojas>
+						No
+					</rojas>
+			</tarjetas>
+				
+				
+		</equipo>
+		<equipo>
+
+			<nombre localidad="visitante">Atletico De Madrid</nombre>
+				<goles penatis="No">
+					<nombre>Antoine Griezmann</nombre>
+					<minuto>23</minuto>
+					
+				</goles>
+				<tarjetas>
+					<amarillas>
+						<nombre>Oblak</nombre>
+					</amarillas>
+
+					<rojas>
+						No
+					</rojas>
+				</tarjetas>
+
+		</equipo>
+
+	</partido>
+</resultados>
+
+<!ELEMENT partido (equipo, equipo)>
+<!ELEMENT equipo (nombre, goles?, tarjetas?)>
+
+<!ATTLIST	equipo local (si|no) "si" CDATA #REQUIRED
+ 			minuto CDATA #REQUIRED>
+ 			
+<!ATTLIST goles		nombre CDATA #REQUIRED
+ 					minuto CDATA #REQUIRED>
+

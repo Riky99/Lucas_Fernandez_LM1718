@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE referendum>
+
+<resultado_elecciones>
+	
+	
+	<fecha_referendum> 1 de octube de 2017</fecha_referendum>
+	<partidos>
+		
+		<partido nombre="PP">
+
+			<votos>2.000.000</votos>
+			<ano_fundacion>20 de enero de 1989</ano_fundacion>
+
+		</partido>
+		<partido nombre="PSOE"></partido>
+		
+			<votos>1.000.000</votos>
+			<ano_fundacion>2 de mayo de 1879</ano_fundacion>
+
+		<partido nombre="PODEMOS"></partido>
+
+			<votos>500.000</votos>
+			<ano_fundacion>16 de enero de 2014</ano_fundacion>
+
+		<partido nombre="UPYD"></partido>
+
+			<votos>200.000</votos>
+			<ano_fundacion>26 de septiembre de 2007</ano_fundacion>
+
+		<partido nombre="PARTIDO ANIMALISTA"></partido>
+
+			<votos>400.000</votos>
+			<ano_fundacion>24 de febrero de 2003</ano_fundacion>
+
+
+
+	</partidos>
+
+
+</resultado_elecciones>

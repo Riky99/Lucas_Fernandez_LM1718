@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<stock>
+		
+		<used-car>
+			<model>Volkswagen Golf Bluemotion</model>
+			<price>15.000€</price>
+			<mileage>30.000 km</mileage>			
+		</used-car>
+		<new-car>
+			<model>Kia Pro-Ceed</model>
+			<price>25.000€</price>
+		</new-car>
+		
+
+</stock>

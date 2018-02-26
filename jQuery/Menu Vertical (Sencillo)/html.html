@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Vertical (Sencillo)</title>
+    <link rel="stylesheet" type="text/css" href="estilos.css">
+    <script src="js/jquery-3.1.1.min.js"></script>
+    </head>
+    <body>
+
+    	<div class="contenedor">
+
+    		<input id="pepe" type="button" name="" value="Menu Vertical">
+
+    		<ul>
+    		<li>texto1</li>
+    		<li>texto2</li>
+    		<li>texto3</li>
+    	</ul>
+    	<ul>
+    		<li>texto4</li>
+    		<li>texto5</li>
+    		<li>texto6</li>
+    	</ul>
+    	<ul>
+    		<li>texto7</li>
+    		<li>texto8</li>
+    		<li>texto9</li>
+    	</ul>
+    		
+    	</div>
+      <script>
+        //Function executed when the HTML document is Ready (full loaded)
+        $(function() {
+
+        	$("")
+
+        	$("input[value='Menu Vertical']").click(function(){
+        		$(this).nextAll().animate({
+        		        			
+					height:"toggle",
+					opacity: "toggle",
+
+					});
+        	});
+
+        	
+        });
+      </script>
+    </body>
+</html>

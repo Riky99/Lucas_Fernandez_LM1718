@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book>
+
+<book_teacher>
+	
+	<asignatura nombre="lenguajemarcas">
+
+		<profesor nombre="juandiego"></profesor>
+
+	<alumnos>
+		<alumno nombre="Pepe" apellidos="Perez"><notas nota="5"></notas></alumno>
+		<alumno nombre="Rosa" apellidos="Torres"><notas nota="5"></notas></alumno>
+		<alumno nombre="Pepe" apellidos="Perez"><notas nota="5"></notas></alumno>
+		<alumno nombre="Rosa" apellidos="Torres"><notas nota="5"></notas></alumno>
+		<alumno nombre="Pepe" apellidos="Perez"><notas nota="5"></notas></alumno>
+		<alumno nombre="Rosa" apellidos="Torres"><notas nota="5"></notas></alumno>
+		<alumno nombre="Pepe" apellidos="Perez"><notas nota="5"></notas></alumno>
+		<alumno nombre="Rosa" apellidos="Torres"><notas nota="5"></notas></alumno>
+		<alumno nombre="Pepe" apellidos="Perez"><notas nota="5"></notas></alumno>
+		<alumno nombre="Rosa" apellidos="Torres"><notas nota="5"></notas></alumno>
+	</alumnos>		
+
+
+	</asignatura>
+
+	<asignatura nombre="basedatos">
+
+		<profesor nombre="juandiego"></profesor>
+		
+		<alumnos>
+			<alumno nombre="Pepe" apellidos="Perez"><notas nota="5"></notas></alumno>
+			<alumno nombre="Rosa" apellidos="Torres"><notas nota="5"></notas></alumno>
+			<alumno nombre="Pepe" apellidos="Perez"><notas nota="5"></notas></alumno>
+			<alumno nombre="Rosa" apellidos="Torres"><notas nota="5"></notas></alumno>
+			<alumno nombre="Pepe" apellidos="Perez"><notas nota="5"></notas></alumno>
+			<alumno nombre="Rosa" apellidos="Torres"><notas nota="5"></notas></alumno>
+			<alumno nombre="Pepe" apellidos="Perez"><notas nota="5"></notas></alumno>
+			<alumno nombre="Rosa" apellidos="Torres"><notas nota="5"></notas></alumno>
+			<alumno nombre="Pepe" apellidos="Perez"><notas nota="5"></notas></alumno>
+			<alumno nombre="Rosa" apellidos="Torres"><notas nota="5"></notas></alumno>
+		</alumnos>
+
+	</asignatura>
+
+
+</book_teacher>

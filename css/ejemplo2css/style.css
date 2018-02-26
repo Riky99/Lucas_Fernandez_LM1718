@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 1000px;
+  margin: auto;
+}
+
+table {
+  width: 500px;
+  margin: auto;
+  border: 5px solid black;
+  
+}
+
+td {
+  border: 1px solid red;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+#horas {
+  background-color: red;
+  color: white;
+}
+
+a {
+  color: blue;
+  text-decoration: none;
+}
+
+#link {
+  width: 100px;
+  margin: auto;
+  text-align: center;
+}
+
+#horario {
+  color: red;
+  width: 100px;
+  margin: auto;
+  text-align: center;
+}

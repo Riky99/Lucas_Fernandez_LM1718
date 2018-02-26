@@ -1,0 +1,43 @@
+* {
+	box-sizing: border-box;
+}
+
+.container {
+	width: 900px;
+	height: 
+	margin: 0px auto;
+}
+
+.cabecera {
+	width: 100%;
+	height: auto;
+	background-color: red;
+}
+
+.cabecera p {
+	background-color: white;
+	width: 100%;
+	height: auto;
+}
+
+.menu {
+	width: 100%;
+	height: auto;
+	background-color: blue;
+	position: relative;
+}
+
+.menu ul {
+	width: 100%;
+	height: auto;
+	background-color: green;
+	position: relative;
+}
+
+.menu li {
+	width: 16%;
+	height: auto;
+	float: left;
+	background-color: green;
+
+}

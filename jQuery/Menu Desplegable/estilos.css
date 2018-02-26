@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+
+}
+
+/* < or > se pone para los hijos directos
+Ejem: #pepe > li (hijos directos de pepe);
+*/
+
+.container {	
+	margin:100px auto;
+	width: 750px;
+
+}
+
+.seccion {
+	width: 180px;
+	float: left;
+	position: relative;
+	background-color: #FF0000FF;
+	text-align: center;
+	height: 70px;
+
+}
+
+.lista li {
+	position: relative;
+	width: 140px;
+	padding-top: 10px;
+
+}
+
+.lista {
+	background-color: #D32B2BFF;
+	height: 130px;
+
+}
+
+.submenu {
+	width: 220px;
+	position: absolute;
+	margin-left: 100px;
+	margin-top: -15px;
+
+}
+
+.submenu li {
+	width: 50px;
+	float: left;
+	background-color: #E94C15FF;
+	height: 30px;
+	padding-top: 5px;
+
+}
+
+ul {
+	list-style: none;
+
+}

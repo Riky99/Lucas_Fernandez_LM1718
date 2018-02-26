@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+}
+p {
+  border: 5px solid black;
+  border-radius: 15px;
+  padding:   10px  5px  10px     5px;
+            /*top right bottom  left*/
+  background-color: grey;
+  color: white;
+  width: 300px;
+  margin: auto;
+
+
+}
+
+
+/*
+* -> Selector universal
+div -> Selector Elemento (cualquier etiqueta)
+div * -> Todos los elementos dentro del div
+div span -> Todos los elementos que esten dentro del div
+div
+
+*/

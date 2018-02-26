@@ -1,0 +1,23 @@
+* {
+box-sizing: border-box;
+}
+
+#container {
+width: 80%;
+margin:0px auto;
+}
+
+img {
+width: 25%;
+float: left;
+height: 150px;
+padding: 20px;
+}
+#container > div {
+
+margin-top: 20px;
+}
+
+.seleccionada {
+border: 2px solid black;
+}

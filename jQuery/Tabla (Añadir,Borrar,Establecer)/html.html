@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabla(Añadir,Borrar,Establecer)</title>
+    <link rel="stylesheet" type="text/css" href="estilos.css">
+    <script src="js/jquery-3.1.1.min.js"></script>
+    </head>
+    <body>
+
+		<input type="button" name="" value="Añadir">
+		<input type="button" name="" value="Borrar">
+    	<label><input class="texto" type="text" name="" value=""></label><input type="button" name="" value="Insertar">
+
+    	<table>
+    		<tr>
+    			<td>1</td>
+    			<td>2</td>
+    			<td>3</td>
+    			<td>4</td>
+    			<td>5</td>
+
+    		</tr>
+    		<tr>
+    			<td>6</td>
+    			<td>7</td>
+    			<td>8</td>
+    			<td>9</td>
+    			<td>10</td>
+
+    		</tr>
+    		<tr>
+
+    			<td>11</td>
+    			<td>12</td>
+    			<td>13</td>
+    			<td>14</td>
+    			<td>15</td>
+
+    		</tr>
+    		<tr>
+
+    			<td>16</td>
+    			<td>17</td>
+    			<td>18</td>
+    			<td>19</td>
+    			<td>20</td>
+
+    		</tr>
+    		<tr>
+
+    			<td>21</td>
+    			<td>22</td>
+    			<td>23</td>
+    			<td>24</td>
+    			<td>25</td>
+
+    		</tr>
+    	</table>
+
+      <script>
+        //Function executed when the HTML document is Ready (full loaded)
+        $(function() {
+
+        	$("input[value='Añadir']").click(function(){
+
+        		$("table tr").last().clone().appendTo("table");
+
+        	});
+
+        	$("input[value='Borrar']").click(function(){
+
+        		$("table tr").last().remove();
+        	});
+
+        	$("input[value='Insertar']").click(function(){
+
+        		$("td").html($(".texto").val());
+
+        		});
+
+
+
+
+        });
+      </script>
+    </body>
+</html>

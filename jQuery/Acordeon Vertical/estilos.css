@@ -1,0 +1,111 @@
+* {
+  box-sizing: border-box;
+}
+
+.contenedor {
+  width: 57%;
+  margin: 20px auto;
+}
+
+body h1 {
+  text-align: center;
+}
+
+.caracteristicas {
+  width: 470px;
+  height: 500px;
+  background-color: red;
+  color: white;
+  border-radius: 30px 30px 30px 30px;
+  float: left;
+  border: 1px solid black;
+}
+
+.titulos {
+  width: 70px;
+  height: 500px;
+  background-color: blue;
+  border-radius: 30px 30px 30px 30px;
+  float: left;
+  color: white;
+  font-family: arial;
+  border: 1px solid black;
+}
+
+.titulos h1 {
+  transform: rotate(-90deg);
+  transform-origin: 0 0;
+  margin-top: 350px;
+  width: 100px;
+  float: left;
+  margin-left: 20px;
+}
+
+.contenidos p {
+  margin-left: 30px;
+}
+
+img {
+  width: 130px;
+}
+
+#img_tzr {
+  width: 130px;
+  margin-left: 150px;
+}
+
+.caracteristicas .contenidos {
+  width: 420px;
+  height: 500px;
+  float: left;
+  margin-top: 80px;
+}
+
+.precio {
+  width: 470px;
+  height: 500px;
+  background-color: black;
+  color: white;
+  border-radius: 30px 30px 30px 30px;
+  float: left;
+  border: 1px solid black;
+}
+
+.precio .contenidos {
+  margin-top: 180px;
+  margin-left: 100px;
+}
+
+.galeria {
+  width: 470px;
+  height: 500px;
+  background-color: #62F20CFF;
+  color: white;
+  border-radius: 30px 30px 30px 30px;
+  float: left;
+  border: 1px solid black;
+}
+
+.galeria .contenidos {
+  width: 300px;
+  height: 180px;
+  float: left;
+  margin-top: 150px;
+  margin-left: 100px;
+}
+
+.opiniones {
+  width: 470px;
+  height: 500px;
+  background-color: #FF6A00FF;
+  color: white;
+  border-radius: 30px 30px 30px 30px;
+  float: left;
+}
+
+.opiniones .contenidos {
+  width: 300px;
+  height: 180px;
+  float: left;
+  margin-left: 65px;
+}
